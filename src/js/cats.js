@@ -11,7 +11,6 @@ export const refs = {
     cat_info: findElemet('.cat-info'),
 };
 
-
 refs.selectBreed.addEventListener("change", (event) => {
     const { target } = event;
     const selectedId = target.value;
